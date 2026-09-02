@@ -1,133 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bleux</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bleux </title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div>
-                <h2>Bleux</h2>
-                <p> Page template</p>
-            </div>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Factures</a></li>
-                <li><a href="#">Use Case</a></li>
-                <li><a href="#">Pricing</a></li>
-            </ul>
 
-            <button>Download</button>
-        </nav>
+  <header class="portada">
+    <nav class="barra-denavegación">
+      <div class="logotipo">
+        <span class="logo-icon">LOGO</span>
+        <div class="texto-logo">
+          <strong>Bleux</strong>
+          <span>Page template</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Use case</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#" class="button">Download</a></li>
+      </ul>
+    </nav>
 
-        <main>
-            <section>
-                <h1>Product Page </h1>
-                <p> We built this template to help you create modern 
-                    and beautiful marketing page. </p>
+    <div class="contenedor-portada">    
+      <div class="contenido-portada">
+        <h1>Product Page</h1>
+        <p>We built this template to help you create modern and beautiful marketing page.</p>
+        <div class="buttons">
+          <a href="#" class="btn-pink">Download it now</a>
+          <a href="#" class="btn-outline">Features</a>
+        </div>
+      </div>
+      <div class="imagen-portada">
+        <div class="phone-mockup">
+          <div class="screen-line"></div>
+          <div class="screen-line short"></div>
+          <div class="screen-box"></div>
+        </div>
+      </div>
+    </div>
+  </header>
 
-                    <button>Download it now</button>
-                    <button>Features</button>
-                </div>
-                </section>
+  <section class="caracteristicas">
+    <h2 class="section-title-pink">Fonctionnalités</h2>
+    <div class="features-container">
+      <div class="feature-mockup">
+        <div class="tablet-mockup">
+          <div class="screen-line"></div>
+          <div class="screen-line short"></div>
+          <div class="screen-box"></div>
+        </div>
+      </div>
+      <div class="feature-text">
+        <h3>Alpha Screenshot</h3>
+        <p>This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product website easily with this template.</p>
+        <p class="subtitulos-rosa">Marketing page</p>
+        <ul class="checklist">
+          <li><i class="fa-regular fa-circle-check"></i> Based on Bootstrap 4</li>
+          <li><i class="fa-regular fa-circle-check"></i> Modern and creative</li>
+          <li><i class="fa-regular fa-circle-check"></i> Optimized for mobile devices</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-                <section>
-                    <h2>Features</h2>
-                    <p> We built this template to help you create modern 
-                        and beautiful marketing page. </p>
+  <section class="precios">
+    <h2>Plans & Pricing</h2>
+    <p class="precios-subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. 
+      Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non.
+    </p>
 
-                        <button>Download it now</button>
-                        <button>Features</button>
-                    </div>
+    <div class="tarjetas-precios">
+      <div class="tarjeta">
+        <div class="tarjeta-header">
+          <i class="fa-solid fa-leaf card-icon"></i>
+          <h3>Lite</h3>
+          <div class="price">$0 <span>Free</span></div>
+        </div>
+        <ul class="card-features">
+          <li><i class="fa-solid fa-star text-pink"></i> Full Components</li>
+          <li><i class="fa-solid fa-check text-pink"></i> Future Updates</li>
+          <li><i class="fa-solid fa-check text-pink"></i> Documentation</li>
+          <li><i class="fa-solid fa-check text-pink"></i> Customer Support</li>
+          <li><i class="fa-solid fa-xmark"></i> Cool Option</li>
+        </ul>
+        <p class="card-desc">Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+        <a href="#" class="btn-card btn-card-pink">Subscribe Now</a>
+      </div>
 
-                    <div>
-                        <img src="images/phone.png" alt="celular">
-                    </div>
+      <div class="tarjeta">
+        <div class="tarjeta-header">
+          <i class="fa-solid fa-cloud card-icon"></i>
+          <h3>Standard</h3>
+          <div class="pric">$24 <span>per month</span></div>
+        </div>
+        <ul class="card-features">
+          <li><i class="fa-solid fa-star"></i> Full Components</li>
+          <li><i class="fa-solid fa-check"></i> Future Updates</li>
+          <li><i class="fa-solid fa-check"></i> Documentation</li>
+          <li><i class="fa-solid fa-check"></i> Customer Support</li>
+          <li><i class="fa-solid fa-xmark"></i> Cool Option</li>
+        </ul>
+        <p class="card-desc">Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+        <a href="#" class="btn-card btn-card-dark">Subscribe Now</a>
+      </div>
 
-                    <section>
-                        <h2> Fonctionnalités</h2>
-                        <div>
-                            <img src="images/laptop.png" alt="laptop">
-                        </div>
-                        <h3>Alpha Screenshot</h3>
-                        <p>This is a placeholder text. Replace it with your awesome call to action text. 
-                            Develop stunning product webite easly with this template. </p>
+      <div class="tarjeta">
+        <div class="card-header">
+          <i class="fa-solid fa-briefcase card-icon"></i>
+          <h3>Ultimate</h3>
+          <div class="price">$400 <span>per user / year</span></div>
+        </div>
+        <ul class="card-features">
+          <li><i class="fa-solid fa-star"></i> Full Components</li>
+          <li><i class="fa-solid fa-check"></i> Future Updates</li>
+          <li><i class="fa-solid fa-check"></i> Documentation</li>
+          <li><i class="fa-solid fa-check"></i> Customer Support</li>
+          <li><i class="fa-solid fa-xmark"></i> Cool Option</li>
+        </ul>
+        <p class="card-desc">Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+        <a href="#" class="btn-card btn-card-dark">Subscribe Now</a>
+      </div>
+    </div>
+  </section>
 
-                            <h4> Marketing page</h4>
-                            <ul>
-                                <li> Based on Bootstrap</li>
-                                <li>Modern and creative</li>
-                                <li>Optimized for moble devices</li>
-                            </ul>
-                    </section>
+  <footer class="footer">
+    <p>© Website made by <a href="#">Mivfx</a> - contact@address.com</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </footer>
 
-                    <section>
-                        <h2> Plans & Pricing</h2>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Modi nemo doloribus inventore iure doloremque nisi vero neque tempora nostrum impedit dolores dolorem voluptatem odio sequi, adipisci ratione quibusdam hic facilis.</p>
-
-                            <div>
-
-                                <article>
-                                    <h3> Lite </h3>
-                                    <h2> $ 0 </h2>
-                                    <p>Free</p>
-                                    <ul>
-                                        <li> Full component</li>
-                                        <li> Fucture Updates</li>
-                                        <li> Documentation</li>
-                                        <li> Customer Support</li>
-                                        <li> Cool Option</li>
-                                    </ul>
-                                    <p> Nulla facilisi. Sed euismod, nisl sed aliquam lacinia, nunc nisl aliquam nunc, vitae aliquam nisl nunc vitae nisl. </p>
-                                    <button> Subcribe Now</button>
-
-                                </article>
-
-                                <article>
-                                    <h3> Standard </h3>
-                                    <h2> $ 24 </h2>
-                                    <p> Per month</p>
-                                    <ul>
-                                        <li> Full component</li>
-                                        <li> Fucture Updates</li>
-                                        <li> Documentation</li>
-                                        <li> Customer Support</li>
-                                        <li> Cool Option</li>
-                                    </ul>
-                                    <p> Nulla facilisi. Sed euismod, nisl sed aliquam lacinia, nunc nisl aliquam nunc, vitae aliquam nisl nunc vitae nisl. </p>
-                                    <button> Subcribe Now</button>
-                                </article>
-
-                                <article>
-                                    <h3> Ultimate </h3>
-                                    <h2> $ 400 </h2>
-                                    <p> Per User / year </p>
-                                    <ul>
-                                        <li> Full component</li>
-                                        <li> Fucture Updates</li>
-                                        <li> Documentation</li>
-                                        <li> Customer Support</li>
-                                        <li> Cool Option</li>
-                                    </ul>
-                                    <p> Nulla facilisi. Sed euismod, nisl sed aliquam lacinia, nunc nisl aliquam nunc, vitae aliquam nisl nunc vitae nisl. </p>
-                                    <button> Subcribe Now</button>
-                                </article>
-                            </div>
-                    </section>
-            </section>
-        </main>
-        <footer>
-            <p> ©website made by Mvfx - contact©addres.com </p>
-            <div>
-                <a href="#"> <img src="images/facebook.png" alt="facebook"> </a>
-                <a href="#"> <img src="images/twitter.png" alt="twitter"> </a>
-                <a href="#"> <img src="images/instagram.png" alt="instagram"> </a>
-            </div>
-        </footer>
-    </header>
-    
 </body>
 </html>
