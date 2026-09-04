@@ -153,8 +153,8 @@ body {
 }
 .titulo-pink {
   color: rgb(241, 45, 146);
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 30px;
   font-weight: 700;
 }
 .title{
@@ -169,7 +169,7 @@ body {
   justify-content: center;
   gap:50px;
   max-width: 1100px;
-  margin: o auto;
+  margin: 0 auto;
   text-align: left;
 }
 .imagen-laptop {
@@ -230,17 +230,18 @@ body {
   padding-bottom: 70px;
 }
 .precios-header{
-display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;     
   text-align: center;      
   width: 100%;
   margin-bottom: 40px;
+  font-weight: 700;
 }
 .precios-header h2 {
   font-size: 36px;
   color:#ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .precios-header p {
   max-width: 650px;       
@@ -283,6 +284,7 @@ display: flex;
   font-size: 16px;
   font-weight: 600;
   margin: 0;
+  color:#222222
 }
 
 .precio-box{
@@ -387,17 +389,178 @@ display: flex;
   font-size: 12px;
   color: black;
 }
-
-.footer a {
-  color: var(--pink-color);
-  text-decoration: none;
-}
-
-.social-icons {
+.redes {
   display: flex;
   gap: 15px;
 }
 
-.social-icons a {
+.redes a {
   color: #555;
+}
+
+@media screen and (min-width: 352px) and (max-width: 480px) {
+  .barra-navegación {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contenedor-portada {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contenido-portada,
+  .imagen-portada {
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .contenido-portada h1 {
+    font-size: 38px;
+  }
+
+  .imagen-portada img {
+    height: 260px;
+  }
+
+  .features-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .feature-text {
+    text-align: center;
+  }
+
+  .checklist li {
+    justify-content: center;
+  }
+
+  .tarjetas-precios {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .tarjeta {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 25px 20px;
+    gap: 15px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .barra-navegación {
+    padding: 20px 30px;
+  }
+
+  .contenedor-portada {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contenido-portada,
+  .imagen-portada {
+    width: 100%;
+    padding: 50px 40px;
+  }
+
+  .features-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tarjetas-precios {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .tarjeta {
+    width: 80%;
+    max-width: 340px;
+  }
+
+  .footer {
+    padding: 30px 40px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 920px) {
+  .barra-navegación {
+    padding: 20px 40px;
+  }
+
+  .contenido-portada {
+    padding: 0 40px;
+  }
+
+  .contenido-portada h1 {
+    font-size: 50px;
+  }
+
+  .features-container {
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .tarjetas-precios {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .tarjeta {
+    width: 230px;
+  }
+
+  .footer {
+    padding: 30px 40px;
+  }
+}
+@media screen and (min-width: 921px) and (max-width: 1279px) {
+  .barra-navegación {
+    padding: 20px 50px;
+  }
+
+  .contenido-portada {
+    padding: 0 50px;
+  }
+
+  .tarjetas-precios {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .tarjeta {
+    width: 270px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .barra-navegación {
+    padding: 20px 80px;
+  }
+
+  .tarjetas-precios {
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .tarjeta {
+    width: 280px;
+  }
 }
